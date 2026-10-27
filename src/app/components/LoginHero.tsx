@@ -1,7 +1,7 @@
 // purpleside
 const LoginHero = () => (
   <section className="flex flex-col justify-center bg-[radial-gradient(circle_at_top_left,#2e2a7a_0%,transparent_40%)] bg-indigo-950 px-8 py-12 text-white md:px-16">
-    <h1 className="text-4xl font-semibold leading-tight md:text-5xl">
+    <h1 className="md:text-3xl font-semibold leading-8">
       Employee
       <br />
       Management System
