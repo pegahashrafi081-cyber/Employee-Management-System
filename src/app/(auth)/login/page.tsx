@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link';
 import { ArrowRight } from "lucide-react";
+import { link } from 'fs';
 
 const portals = [
   { href: '/login/admin', label: 'Admin Portal' },
@@ -12,7 +13,6 @@ const LoginPage = () => (
     <p className="mt-3 mb-8 text-slate-500">
       Select your portal to securely access the system.
     </p>
-
     <nav className="grid gap-4">
       {portals.map((portal) => (
         <Link
@@ -23,14 +23,13 @@ const LoginPage = () => (
           <span>{portal.label}</span>
           <ArrowRight size={18} aria-hidden />
         </Link>
-      ))}
-    </nav>
-
+      ))}</nav>
     <footer className="mt-10 text-sm text-slate-400">
       © 2026 GreatStack. All rights reserved.
     </footer>
   </>
 );
+
 
 export default LoginPage;
 
