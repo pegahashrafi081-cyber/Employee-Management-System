@@ -14,7 +14,6 @@
 
 import type { ReactNode } from 'react';
 import LoginHero from '@/app/components/LoginHero';
-
 const AuthLayout = ({ children }: { children: ReactNode }) => (
   <main className="grid min-h-screen md:grid-cols-2">
     <LoginHero />
