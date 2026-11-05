@@ -24,12 +24,14 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "autoprefixer": "^10.6.2",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.4.3",
     "eslint-config-prettier": "^10.1.8",
+    "postcss": "^8.5.32",
     "prettier": "^3.9.10",
-    "tailwindcss": "^4",
+    "tailwindcss": "^4.3.4",
     "typescript": "^5"
   }
 }
